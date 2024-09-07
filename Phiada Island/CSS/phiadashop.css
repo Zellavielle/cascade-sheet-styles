@@ -391,3 +391,64 @@ ul.tabBlock-tabs li {
 :root {
 --borde1: 1px solid #cccccc;
 }
+
+/* Otras tablillas */
+/* evento tablilla mini */
+recoleccionesdiana strong { color: black !important; display: block; width: 100%; border-top: 1px solid var(--bg4); margin-left: -16px; padding-top: 21px; margin-bottom: 19px; } objetorec { margin-right: 10px; } recoleccionesdiana img { width: 46px; max-width: 100%; margin-bottom: 4px; background: var(--bg4); padding: 5px; } recoleccionesdiana { display: flex; flex-wrap: wrap; justify-content: flex-start; width: 299px; padding-left: 17px; } barritaint { display: block; width: 100%; background: linear-gradient(45deg, #d69393, #eeec31cc); height: 100%; } barrita1 { width: 300px; display: block; margin-top: 10px; height: 4px; background: #c3c3c3; } dianabarrita i { font-weight: 600;font-style: normal; }dianabarrita strong { color: black !important; }dianabarrita { border-top: 1px solid var(--bg4); display: block; padding-top: 20px; margin-top: 10px; } .diana-minirol-header span b:before { margin-right: 4px; content: ''; display: inline-block; width: 26px; height: 1px; position: relative; top: -2px; } .diana-minirol-header span b { display: block; font-family: segoe ui; text-transform: uppercase; font-weight: 400; font-size: 9px; letter-spacing: 2px; margin-top: 1px; } .diana-minirol-header span { font-family: 'Barlow'; font-size: 20px; } .diana-minirol-body { width: 380px; font-size: 12px; margin: auto; margin-top: 30px; } img.diana-ima { width: 60px; margin-right: -18px; } .diana-minirol-header { background: #323232; display: flex; align-items: center; justify-content: space-between; padding: 8px 26px; color: var(--text2); } .diana-minirol-content { line-height: 110%;padding: 48px; border: 1px solid var(--bg4); margin-top: 10px; font-family: barlow; font-size: 13px; color: black; }  
+dianaskeep b { display: block; font-family: segoe ui; text-transform: uppercase; font-size: 9px; font-weight: lighter; margin-top: 10px; letter-spacing: 2px; } dianaskeep { background: #687dbd; display: block; padding: 20px; font-size: 30px; color: var(--text2); }
+
+/* subforos de usuarios */
+.phi-main-subforum-desc .phi-mpost-header { font-size: 41px; }
+.phi-main-subforum-desc .phi-mpost-fonticon:before { margin-left: 45px; }
+.phi-main-subforum-desc .phi-mpost-fonticon { left: 130px; }
+img.imagen-completa, img.imagen-derecha, img.imagen-izquierda { border-radius: 7px; }
+img.imagen-izquierda { float: left; margin-right: 25px; margin-bottom: 20px; }
+img.imagen-derecha { float: right; margin-left: 25px; margin-bottom: 20px; }
+img.imagen-completa { width: 800px; margin-bottom: 20px; }
+
+/* eventos */
+dropdesc b { display: block; font-family: 'Poppins'; color: var(--accent3); }
+dropevn img { width: 50px; height: 50px; border: 3px solid var(--bg1); border-radius: 6px; margin: 10px; background: var(--bg3); padding: 5px; }
+dropevn { display: flex; width: 383px; background: var(--bg4); align-items: center; padding: 20px 10px; border-radius: 9px; margin-bottom: 10px; }
+.events-description-drops { display: flex; flex-wrap: wrap; width: 820px; margin: auto; justify-content: space-between; margin-top: 20px; }
+dropdesc { text-align: justify; font-size: 12px; font-family: segoe ui; color: var(--text3); }
+prticpntsname b:before { color: var(--pmainp-accent2); margin: 0 8px; font-family: "Font Awesome 6 Pro"; content: "\f219"; font-weight: 900; font-size: 9px; margin-right: 11px; }
+a.prtiplink { display: flex; align-items: center; background: var(--pmainp-accent1); color: var(--text2); padding: 4px 10px; border-radius: 5px; font-family: 'Poppins'; margin-left: 3px; text-transform: uppercase; font-weight: 600; width: 20%; }
+prticpntsname b { font-weight: 400; } 
+prticpntsname { background: var(--lightcharc); color: var(--text2); padding: 8px 10px; border-radius: 5px; font-family: 'Poppins'; font-weight: 500; width: 80%; }
+participants { display: flex; width: 823px; margin: auto; margin-bottom: -12px; }
+.phi-main-post .phi-intro-minititle { width: 764px; margin: auto; position: relative; }
+.phi-main-post .phi-intro-minititle { padding-left: 51px; }
+.phi-main-post .phi-intro-minititle i {     margin-left: -38px;font-family: 'Font Awesome 6 Sharp'; border: 0; }
+.events-description-low i, .phi-mpost-numbered i { border-bottom: 2px solid var(--pmainp-accent3); font-family: 'Poppins'; font-weight: 500; }
+.events-description-low b, .phi-mpost-numbered b { background: var(--charc); color: var(--pmainp-accent2); font-family: 'Poppins'; padding: 2px 7px; border-radius: 3px; } 
+.events-description-low strong, .phi-mpost-numbered strong { font-family: 'Poppins'; color: var(--pmainp-accent1); }
+.events-description-low, .phi-mpost-numbered { width: 800px; margin: auto; font-size: 13px; color: var(--text3); }
+.phi-mpost-numbered li::marker { color: var(--pmainp-accent2); font-family: poppins; font-weight: 800; font-size: 20px; }
+.phi-mpost-gral-info span i { color: var(--pmainp-accent2); } .phi-mpost-gral-info span strong { color: var(--pmainp-accent3); }
+.phi-mpost-gral-info span i, .phi-mpost-gral-info span strong { font-family: 'Poppins'; }
+
+.phi-mpost-full-desc { background: var(--bg3); border-radius: 20px; margin-top: 41px; position: relative; z-index: 9; padding: 30px; color: var(--text); }
+.phi-mpost-gral-info span::-webkit-scrollbar-thumb { background: linear-gradient(61deg, var(--pmainp-accent2), var(--pmainp-accent3));}
+.phi-mpost-fonticon i { background: var(--lightcharc); }
+.phi-mpost-fonticon:before { content: ''; width: 1px; height: 180px; background: var(--charc2); display: block; position: absolute; margin-left: 36px; margin-top: -27px; }
+.phi-mpost-fonticon .fa-duotone:after { opacity: 1; }
+.phi-main-post div { box-sizing: content-box; }
+.phi-mpost-gral-title strong { color: var(--text2); } 
+.phi-mpost-gral-title { margin: 0 32px; font-family: 'Poppins'; text-transform: uppercase; color: var(--pmainp-accent1); font-weight: 600; font-size: 19px; margin-bottom: 19px; margin-top: 23px; width: 709px; margin-left: 350px; }
+.phi-mpost-gral-info span { display: block; width: 710px; margin: auto; font-family: segoe ui; font-size: 14px; line-height: 160%; overflow: auto; padding-right: 13px; margin-left: 351px; height: 197px; }
+.phi-main-post { background: #dedede; width: 1175px; margin-left: -16px; border-radius: 10px; position: relative; margin-top: -12px; margin-bottom: -18px; overflow: hidden; line-height: 130%; }
+.phi-mpost-sidebar { background: var(--charc); width: 250px; position: absolute; top: 0; left: 50px; height: 450px; border-radius: 0 0 150px 150px; display: flex; color: var(--text1); flex-direction: column; align-items: center; justify-content: flex-end; z-index: 5; }
+img.phi-mpost-icon { border-radius: 100%; width: 232px; margin-bottom: 10px; }
+.phi-mpost-sidebar-info { height: 177px; width: 200px; display: flex; flex-direction: column; font-family: 'Emilea'; font-size: 20px; color: var(--text2); text-transform: uppercase; }
+sdbrinfo2:before { content: 'Autor'; display: block; font-family: 'Poppins'; color: var(--charc2); font-weight: 800; font-size: 11px; letter-spacing: 2px; margin-top: 10px; margin-bottom: 5px; }
+sdbrinfo2 { color: #81b5ff; letter-spacing: 0; font-size: 22px; font-weight: bold; }
+sdbrinfo1 { font-size: 11px; letter-spacing: 3px; }
+sdbrinfo1:before { content: 'Publicado el'; display: block; font-family: 'Poppins'; color: var(--charc2); font-weight: 800; font-size: 11px; letter-spacing: 2px; margin-bottom: -1px; margin-top: 10px; }
+.phi-mpost-header { color: var(--text2); background: linear-gradient(45deg, var(--pmainp-accent3), var(--pmainp-accent2)); height: 235px; padding-left: 380px; display: flex; flex-direction: column; justify-content: center; font-family: 'Emilea'; font-size: 59px; text-transform: uppercase; text-shadow: 0 0 2px var(--charc); align-items: flex-start; border-radius: 0 0 20px 20px; position: relative; z-index: 2; }
+.phi-mpost-subtitle { font-family: 'Poppins'; font-size: 10px; border-radius: 6px; margin-top: 28px; margin-bottom: -25px; letter-spacing: 1px; display: flex; align-items: center; }
+.phi-mpost-subtitle span { background: var(--charc); padding: 10px 15px; border-radius: 7px; }
+.phi-mpost-subtitle i { background: var(--charc); width: 38px; border-radius: 7px; height: 38px; margin-left: 10px; display: flex; align-items: center; justify-content: center; font-size: 23px; }
+.phi-mpost-subtitle strong { color: var(--pmainp-accent3); }
+.phi-mpost-gral-info { background: var(--lightcharc); padding: 30px; color: var(--text1); text-align: justify; padding-top: 80px; margin-top: -41px; }
+.phi-mpost-fonticon { position: absolute; font-size: 71px; z-index: 9; top: 476px; color: var(--text1); left: 136px; background: var(--lightcharc); }
