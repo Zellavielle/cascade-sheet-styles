@@ -1,0 +1,80 @@
+.gru1 {
+    --gradusr: linear-gradient(-45deg,var(--avent2),var(--groups))!important;
+}
+.gru2 {
+    --gradusr: linear-gradient(-45deg,var(--trab2),var(--groups))!important;
+}
+.gru3 {
+    --gradusr: linear-gradient(-45deg,var(--ciud2),var(--groups))!important;
+}
+.gru4 {
+    --gradusr: linear-gradient(-45deg,var(--estud2),var(--groups))!important;
+}
+.gru5 {
+    --gradusr: linear-gradient(-45deg,var(--infa2),var(--groups))!important;
+}
+.gru6 {
+    --gradusr: linear-gradient(-45deg,var(--turis2),var(--groups))!important;
+}
+.gru7 {
+    --gradusr: linear-gradient(-45deg,var(--acad2),var(--groups))!important;
+}
+.gru8 {
+    --gradusr: linear-gradient(-45deg,var(--radia2),var(--groups))!important;
+}
+
+gru.gr8 b { background: linear-gradient(45deg,var(--radia2),var(--groups)); color: var(--text2); font-weight: 600; padding: 3px 5px; margin-left: 7px; border-radius: 3px; font-size: 9px; text-shadow: 0px 0px 4px var(--charc); margin-right: 10px; position: relative; top: -1px; }
+gru.gr7 b { background: linear-gradient(45deg,var(--radia2),var(--groups)); color: var(--text2); font-weight: 600; padding: 3px 5px; margin-left: 7px; border-radius: 3px; font-size: 9px; text-shadow: 0px 0px 4px var(--charc); margin-right: 10px; position: relative; top: -1px; }
+gru.gr4 b { background: linear-gradient(45deg,var(--estud2),var(--groups)); color: var(--text2); font-weight: 600; padding: 3px 5px; margin-left: 7px; border-radius: 3px; font-size: 9px; text-shadow: 0px 0px 4px var(--charc); margin-right: 10px; position: relative; top: -1px; }
+gru.gr5 b { background: linear-gradient(45deg,var(--infa2),var(--groups)); color: var(--text2); font-weight: 600; padding: 3px 5px; margin-left: 7px; border-radius: 3px; font-size: 9px; text-shadow: 0px 0px 4px var(--charc); margin-right: 10px; position: relative; top: -1px; }
+
+
+.pextras li hr { margin: 0; }
+.pextras li:before { content: counter(list-counter); color: var(--groups); font-weight: 800; font-family: 'Poppins'; margin-right: 9px; min-width: 13px; text-align: right; font-size: 19px; } 
+.pextras li { background: var(--bg2); padding: 8px 13px; padding-right: 23px; margin: 6px; border-radius: 3px; position: relative; counter-increment: list-counter; margin-bottom: 5px; font-family: Segoe ui; font-size: 12px; }
+.pextras { background: var(--bg4); margin-top: 21px; margin-left: 15px; text-align: justify; line-height: 110%; font-size: 13px; padding: 10px; border-radius: 6px; width: 306px; position: relative; }
+.pmusic { position: relative; }
+.pextras-title { font-family: Emilea; font-size: 39px; background: var(--charc); color: var(--text2); padding: 10px; border-radius: 7px; display: flex; align-items: center; }
+.pextras-title em { margin-right: 14px; }
+.campo64 { height: 269px; overflow: auto; }
+.pextra-pmusic-container { display: flex; flex-wrap: wrap; }
+.pvoice-character {color: var(--text1); width: 521px; background: var(--charc); margin-left: 21px; border-radius: 10px; margin-top: 12px; padding-bottom: 10px; }
+.pvoice-character-title i { font-size: 11px; } 
+.pvoice-character-title b { font-family: 'Poppins'; text-transform: uppercase; font-size: 11px; color: var(--groups); letter-spacing: 1px; } 
+.pvoice-character-title { text-align: justify; padding: 18px 25px; font-family: 'Emilea'; font-size: 22px; text-transform: uppercase; }
+.pvoice-character-contnt a { background: var(--gradusr); color: var(--text3); padding: 8px 10px; font-family: 'Poppins'; border-radius: 4px; text-align: left; font-size: 12px; margin-bottom: 5px; position: relative; font-weight: 600; }
+.pvoice-character-contnt strong { text-transform: uppercase; font-size: 11px; letter-spacing: 1px; font-weight: 900; }
+.pvoice-character-contnt .field_uneditable { display: flex; width: 472px; margin-left: 25px; margin-top: -12px; justify-content: space-around; flex-wrap: wrap; }
+.pvoice-character-contnt .field_uneditable a { width: 47%; }
+.pvoice-character-contnt a:before { position: absolute; right: 10px; color: white; font-family: "Font Awesome 6 Pro"; font-weight: 900; content: "\f04b"; }
+.pextras li a:after { font-family: "Font Awesome 6 Pro"; font-weight: 900; content: "\f08e"; margin-left: 5px; font-size: 11px; position: relative; top: 2px; }
+.pextras li a { font-family: 'Poppins'; font-size: 11px; } 
+.pextras li i { color: var(--groups); font-weight: 600; }
+.pextras li strong { font-family: 'Poppins'; font-size: 11px; }
+
+.campo66 { text-transform: uppercase; font-weight: 600; letter-spacing: 1px; }
+.campo66 .field_uneditable:before { font-family: "Font Awesome 6 Pro"; content: "\e52f"; font-weight: 400; margin-right: 10px; color: var(--groups); }
+
+
+.ph-datos.campo35 img { width: 500px; height: 200px; }
+
+/* goddesses profiles */
+.gadmin .phi-portadagrande img { height: 500px; width: 350px; }
+.gadmin .p-linkspersonales-pinventario-pstats-pskills, .gadmin .pmascota-body, .gadmin .p-avatar-pinventario-pmedallas-pdisponibilidad, .gadmin .pteams, .gadmin .pteams-pmusic-pcouple { display: none; }
+.gadmin .phi-linksprsnls-themesrch { border-radius: 0 0 20px; position: relative; width: 151px; height: 500px; }
+.phi-god-alt { background: #f0f0f0; display: none;padding: 30px; width: 669px; margin-left: -30px; padding-left: 43px; }
+.phi-god-alt-title { font-family: emilea; font-size: 65px; color: #65a3b3; width: 542px; line-height: 81%; }
+.phi-god-alt-desc { background: var(--charc); color: var(--white); padding: 20px 30px; border-radius: 0 16px 16px 0; line-height: 130%; text-align: justify; font-family: poppins; font-size: 11px; margin-left: -30px; margin-top: 20px; margin-right: -22px; }
+.phi-god-alt-desc b { color: var(--groups); }
+.phi-portadagrande-linksprsnls-themesrch { display: flex; flex-wrap: wrap; }
+.campo61 img { background: var(--white); width: 65px; margin: 2px; border-radius: 8px; padding: 6px; border: 1px solid #cacaca; }
+table.main-affection .campo61 tr { display: flex!important; flex-wrap: wrap; flex-direction: row; }
+.campo61 { padding: 10px 17px; text-align: justify; line-height: 140%; color: var(--charc); font-size: 12px; overflow: auto; height: 243px; }
+.phi-god-alt-items { background: var(--greyer); width: 603px; height: 259px; margin-left: 4px; border-radius: 11px; margin-top: 15px; }
+.campo61::-webkit-scrollbar { background-color:var(--greyer); width: 6px; border: 0px solid #e1e1ef; } 
+.campo61::-webkit-scrollbar-thumb { background: linear-gradient(61deg,var(--groups),var(--ph2)); width: 6px; border-radius: 0px; }
+.phi-god-alt-desc a { background: #40899b; color: var(--white2); padding: 0px 3px; border-radius: 3px; font-weight: 600; }
+.gadmin .phi-god-alt {display: inline-block;}
+
+.wtrfl-mascotaelem i { font-size: 15px; color: var(--groups); }
+.wtrfl-mascotaelem { font-size: 14px; }
