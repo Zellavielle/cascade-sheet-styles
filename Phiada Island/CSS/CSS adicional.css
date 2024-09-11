@@ -1,4 +1,25 @@
-  /*** ------------------------------- ***/
+.staffer_modal { position: fixed; font-family: Arial; top: 0; right: 0; bottom: 0; left: 0; background: #a2a2a259; z-index: 99999; opacity: 0; -webkit-transition: opacity 400ms ease-in; -moz-transition: opacity 400ms ease-in; transition: opacity 400ms ease-in; pointer-events: none; }
+.staffer_modal:target { opacity:1; pointer-events: auto; } 
+.staffer_modal > .staffer_pop { width: 900px; position: relative; margin: 7% auto; padding: 10px; height: 500px; }
+ .staffer_pop a { color: #fff; } 
+.staffer_pop3 { padding: 10px; background-color: var(--bg2); height: 500px; border-radius: 15px; display: flex; }
+.staffer_close { color: #FFF; position: absolute; right: 26px; text-align: center; top: 26px; width: 26px; text-decoration: none; font-size: 10px; z-index: 9; }
+.staffer_pop a { color: #fff; background: var(--grad1); font-family: arial; padding: 5px 3px; border-radius: 7px; }
+.staffer-ima { background: var(--accent1); width: 300px; height: 100%; border-radius: 16px; position: relative; z-index: 4; }
+.staffer_modal .staffer-links a:hover { background: var(--accent1); } 
+.staffer_modal .staffer-links a { background: var(--charc); border-radius: 3px; width: 33px; height: 33px; display: flex; align-items: center; justify-content: center; font-size: 16px; margin: 5px 0; }
+.staffer-links { background: var(--grad1); width: 96px; height: 100%; border-radius: 16px; margin-left: -29px; position: relative; z-index: 3; display: flex; flex-direction: column; padding-left: 30px; align-items: center; padding-top: 18px; }
+.staffer-right { background: var(--charc); width: 536px; height: 100%; border-radius: 16px; margin-left: -29px; position: relative; z-index: 2; overflow: hidden; } 
+.staffer-top { margin-left: 28px; display: flex; padding: 46px 49px; padding-top: 60px; } 
+.staffer-icon { color: var(--white); background: var(--grad1); padding: 10px 20px; font-size: 35px; border: 4px solid var(--white); border-radius: 13px; margin-right: 28px; } 
+.staffer-name span { display: block; font-family: poppins; color: var(--white); font-size: 12px; letter-spacing: 2px; margin-top: -4px; }
+.staffer-name { font-family: 'Emilea'; color: var(--accent2); font-size: 45px; }
+.staffer-desc { color: var(--white); font-family: poppins; font-size: 10px; width: 302px; margin: auto; font-weight: 200; text-align: justify; letter-spacing: 1px; position: relative; left: 17px; }
+.staffer-quote { color: var(--accent1); font-family: 'Butler_Black'; font-size: 15px; margin: auto; text-align: right; width: 387px; margin-top: 33px; position: relative; left: 7px; }
+.stfr-icon { position: absolute; z-index: -1; color: #474a59; font-size: 490px; text-align: right; width: 100%; margin-left: 72px; display: block; margin-top: -104px; }
+
+
+/*** ------------------------------- ***/
 /*** SWITCHEROO - Par Monomer ------ ***/
 form.switcheroo__form:before { content: 'Para poder navegar por el foro al completo y poder ver las zonas ocultas, loggeate:'; background: var(--charc); display: block; border-radius: 5px; margin-bottom: 20px; font-family: 'Poppins'; color: var(--text1); padding: 10px; font-size: 10px; }
 
@@ -313,7 +334,10 @@ div#phi-links-full-list a.staffer_close { background: var(--charc); right: 31px;
 .phi-linksfull-list-body a { background: var(--bg4); font-family: 'Poppins'; color: var(--charc); display: block; font-weight: 600; margin: 3px; padding: 3px 6px; border-radius: 5px; font-size: 12px; }
 .phi-linksfull-list-title { background: var(--charc); border-radius: 5px; padding: 6px 2px; color: var(--white); font-family: 'Poppins'; text-transform: uppercase; font-weight: 600; text-align: center; font-size: 13px; line-height: 100%; margin-top: 10px; margin-bottom: 6px; }
 .phi-linksfull-list-title strong { color: var(--accent1); }
-#phi-links-full-list .staffer_pop3 { flex-wrap: wrap; }
+#phi-links-full-list .staffer_pop3 {
+    flex-wrap: wrap;
+    line-height: 128%;
+}
 
 /* créditos y afis */
 
