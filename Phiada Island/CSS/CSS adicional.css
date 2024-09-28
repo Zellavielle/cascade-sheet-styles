@@ -1,3 +1,77 @@
+
+/* barras de estadísticas = Vida, energía, maná, vida enemigo*/
+benergia, bvida, bvidae, bmana {
+    background: var(--bg4);
+    width: 300px;
+    display: block;
+    padding: 3px;
+    border-radius: 3px;
+    padding-right: 12px;
+    text-align: left;
+}
+benergia i, bvida i, bvidae i, bmana i {
+    background: linear-gradient(45deg, #eeba3f, #ff5a5a);
+    width: 0%;
+    display: block;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 4px;
+    padding-left: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: var(--text2);
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-shadow: 0px 0px 3px #444444eb;
+}
+benergia b, bvida b, bvidae b, bmana b {
+    font-size: 0;
+}
+bvida i {
+    background: linear-gradient(45deg, #29ac34, #e4ec69);
+}
+bvidae i {
+    background: linear-gradient(45deg, #7e1f84, #69ec9d);
+}
+bmana i {
+    background: linear-gradient(45deg, #006de4, #4df6ff);
+}
+
+benergia:before, bmana:before, bvida:before {
+    text-decoration: none;
+    background: var(--charc);
+    border-radius: 4px 4px 0 0;
+    color: var(--text1);
+    font-family: poppins;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    display: block;
+    padding: 5px;
+    margin-bottom: 3px;
+    margin-right: -9px;
+    content: 'Energía';
+}
+bmana:before {content: 'Mana';}
+bvida:before {content: 'Vida del combatiente';}
+
+bvidae u {
+ text-decoration: none;
+    background: var(--charc);
+    border-radius: 4px 4px 0 0;
+    color: var(--text1);
+    font-family: poppins;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 11px;
+    display: block;
+    padding: 5px;
+    margin-bottom: 3px;
+    margin-right: -9px;
+}
+
+/* staffer modal */
+
 .staffer_modal { position: fixed; font-family: Arial; top: 0; right: 0; bottom: 0; left: 0; background: #a2a2a259; z-index: 99999; opacity: 0; -webkit-transition: opacity 400ms ease-in; -moz-transition: opacity 400ms ease-in; transition: opacity 400ms ease-in; pointer-events: none; }
 .staffer_modal:target { opacity:1; pointer-events: auto; } 
 .staffer_modal > .staffer_pop { width: 900px; position: relative; margin: 7% auto; padding: 10px; height: 500px; }
