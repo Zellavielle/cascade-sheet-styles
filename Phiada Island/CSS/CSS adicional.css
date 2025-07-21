@@ -55,7 +55,6 @@ div#contenedorultimostemas { width: 400px; }
 .temaslibres3 a:hover { border-right: 10px solid var(--accent3); }
 .phibusque-phiclima {position: relative; text-align: center; width: 1350px; margin: auto; display: flex; align-items: flex-start; }
 .phibusque { width: 648px; }
-.phiclima-img { background: var(--charc); width: 327px; height: 174px; margin: auto; position: relative; left: 1px; margin-top: -20px; border-radius: 0 0 14px 14px; background-size: cover; }
 div#busquetop { display: flex; flex-wrap: wrap; }
 .phiclima { width: 350px; margin-top: -53px; margin-left: -30px; height: 369px; position: relative; left: 40px; background: var(--bg4); border-radius: 14px; color: var(--text1); }
 .phiclima-title strong { display: block; font-family: poppins; text-transform: uppercase; font-size: 10px; margin-top: -8px; letter-spacing: 3px; font-weight: 800; color: var(--accent1); background: var(--charc); margin-left: -40px; padding-left: 39px; }
